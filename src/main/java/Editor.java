@@ -28,6 +28,8 @@ public class Editor extends JPanel implements ActionListener {
     }
 
     private void build() {
+
+        System.out.println(file);
         this.save = new JButton("Save");
         this.saveClose = new JButton("Save and Close");
         this.text = new JTextArea(20, 40);
